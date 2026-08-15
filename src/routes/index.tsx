@@ -10,6 +10,10 @@ import { Marketplace } from "@/components/landing/Marketplace";
 import { Earnings } from "@/components/landing/Earnings";
 import { Pricing } from "@/components/landing/Pricing";
 import { Testimonials } from "@/components/landing/Testimonials";
+import { AddAnything } from "@/components/landing/AddAnything";
+import { LaunchFaq } from "@/components/landing/LaunchFaq";
+import { Resources } from "@/components/landing/Resources";
+import { FinalCta } from "@/components/landing/FinalCta";
 import { Footer } from "@/components/landing/Footer";
 
 export const Route = createFileRoute("/")({
@@ -48,6 +52,10 @@ function Index() {
         <Earnings />
         <Pricing />
         <Testimonials />
+        <AddAnything />
+        <LaunchFaq />
+        <Resources />
+        <FinalCta />
       </main>
       <Footer />
     </div>
