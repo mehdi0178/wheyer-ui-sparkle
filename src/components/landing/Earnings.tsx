@@ -11,7 +11,7 @@ const inr = (n: number) => `₹${Math.round(n).toLocaleString("en-IN")}`;
 export function Earnings() {
   const [price, setPrice] = useState(10000);
   const [trips, setTrips] = useState(20);
-  const [tier, setTier] = useState(tiers[0]);
+  const [tier, setTier] = useState(tiers[0]!);
 
   const revenue = price * trips;
   const fee = revenue * tier.rate;
