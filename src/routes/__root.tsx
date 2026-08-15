@@ -78,22 +78,26 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Wheyer — Sell travel experiences online" },
+      { title: "Wheyer — Create a travel business without limits" },
       {
         name: "description",
         content:
-          "Wheyer gives travel businesses a branded storefront, booking engine, escrow payments and a marketplace of high-intent travellers.",
+          "Wheyer gives travel operators a branded storefront, booking engine, escrow payouts and marketplace demand. Start free, no credit card required.",
       },
       { name: "author", content: "Wheyer" },
-      { property: "og:title", content: "Wheyer — Sell travel experiences online" },
+      { property: "og:title", content: "Wheyer — Create a travel business without limits" },
       {
         property: "og:description",
         content:
-          "Storefront, bookings, payouts and marketplace demand for travel operators — in one platform.",
+          "Wheyer gives travel operators a branded storefront, booking engine, escrow payouts and marketplace demand. Start free, no credit card required.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Wheyer — Create a travel business without limits" },
+      { name: "twitter:description", content: "Wheyer gives travel operators a branded storefront, booking engine, escrow payouts and marketplace demand. Start free, no credit card required." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0dfa6d1d9e86b4ecf2c69e874726ce6e/id-preview-2aeb3d09--c004f899-c9d7-432c-8335-cfd1ac4b1de2.lovable.app-1786769537490.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0dfa6d1d9e86b4ecf2c69e874726ce6e/id-preview-2aeb3d09--c004f899-c9d7-432c-8335-cfd1ac4b1de2.lovable.app-1786769537490.png" },
     ],
     links: [
       {

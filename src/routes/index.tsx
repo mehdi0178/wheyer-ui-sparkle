@@ -29,7 +29,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Storefront, bookings, escrow payouts and marketplace leads for travel businesses — one platform.",
+          "Wheyer gives travel operators a branded storefront, booking engine, escrow payouts and marketplace demand. Start free, no credit card required.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
